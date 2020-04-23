@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    font-size: 1.2em;
+    color: #EDF6E9;
+    background-color: #0D2F4A;
+    padding: 10px;
+    text-align: center;
+  }
+
+/* Add padding to containers */
+.container {
+    padding: 15px;
+    background-color: #E8E7DE;
+    color: #0D2F4A;
+    text-align: center;   
+  }
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 20px;
+    color: #000000;
+    background-color:#FFFFFF ;
+  }
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #0D2F4A;
+    margin-bottom: 20px;
+  }
+  
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color: #0D2F4A;
+    color: white;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+    background-color: rgb(224, 178, 192);
+    color: #000;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+
